@@ -1,0 +1,2 @@
+This server will just send string texts when an xnv even happens and 
+multicast it over UDP on 8899
