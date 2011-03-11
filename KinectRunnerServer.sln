@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRunnerServer", "KinectRunnerServer\KinectRunnerServer.csproj", "{9741C5D2-A3A1-4503-88F0-250EE3911870}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCA3BE7E-801B-4ADB-AE26-144B0CBA8285}"
+	ProjectSection(SolutionItems) = preProject
+		KinectRunnerServer\config.xml = KinectRunnerServer\config.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +18,8 @@ Global
 		{9741C5D2-A3A1-4503-88F0-250EE3911870}.Debug|x86.Build.0 = Debug|x86
 		{9741C5D2-A3A1-4503-88F0-250EE3911870}.Release|x86.ActiveCfg = Release|x86
 		{9741C5D2-A3A1-4503-88F0-250EE3911870}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = KinectRunnerServer\KinectRunnerServer.csproj

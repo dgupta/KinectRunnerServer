@@ -9,10 +9,11 @@ namespace KinectRunnerServer
 {
 	class MainClass
 	{
-		static string[] KinectMessages={"push","up","down","left","right"};
+		
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			KinectRunner kr = new KinectRunner();
+			kr.Run();
 		}
 	}
 }
