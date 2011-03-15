@@ -117,7 +117,7 @@ namespace KinectRunnerServer
 		private readonly string CONFIG = @"../../config.xml";
 		//a nice list of readonly strings
 		private readonly string[] KinectMessages={"push","up","down","left","right"};
-		UdpClient publisher = new UdpClient("localhost",8899);
+		UdpClient publisher = new UdpClient("127.0.0.1",8899);
 		
 		Context Context;
 		
